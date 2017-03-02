@@ -1,6 +1,6 @@
+<label>Student Name:</label><br />
 <%= form_for(@student) do |f| %>
-  <label>Post title:</label><br>
-  <%= f.text_field :title %><br>
-
-  <%= f.submit %>
+<%= f.text_field :first_name %><br>
+<%= f.text_field :last_name %><br>
+<%= f.submit %>
 <% end %>
